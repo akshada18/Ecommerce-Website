@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="header">
+        <a href="#"><img src="Images/logo.png" alt="" class="logo"></a>
+
+        <div>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa fa-shopping-cart cart"></i></a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="page-header" id="contact-header" style="background-image: url(./Images/blue.png);">
+        <h2 style="color: #fff;">#let's_shop</h2>
+        <p style="color: #fff;">LEAVE A MESSAGE, we love to hear from you</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quality</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa fa-close"></i></a></td>
+                    <td><img src="./Images/f3.webp" alt=""></td>
+                    <td>Dress</td>
+                    <td>₹2,799</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹2,999</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="fa fa-close"></i></a></td>
+                    <td><img src="./Images/p3.webp" alt=""></td>
+                    <td>ADIDAS X MARIMEKKO GRAPHIC TEE</td>
+                    <td>₹2,999</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹2,999</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="fa fa-close"></i></a></td>
+                    <td><img src="./Images/P4.webp" alt=""></td>
+                    <td>CROPPED TIGHT-FIT LONG SLEEVE TEE WITH METALLIC STRIPES</td>
+                    <td>₹699</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹699</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+    <section id="cart-add" class="section-1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="happy">Apply</button>
+            </div>
+        </div>
+         <div id="subtotal">
+             <h3>Cart Totals</h3>
+             <table>
+                 <tr>
+                     <td>Cart Subtotal</td>
+                     <td>₹6,497</td>
+                 </tr>
+                 <tr>
+                     <td>Shipping</td>
+                     <td>Free</td>
+                     <tr>
+                         <td><strong>Total</strong></td>
+                         <td><strong>₹6,497</strong></td>
+                     </tr>
+                 </tr>
+             </table>
+             <button class="happy">Proceed to Checkout</button>
+         </div>
+    </section>
+   
+
+    <footer class="section-p1">
+        <div class="col">
+
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> High Street Essentials Pvt Ltd. Noida. UP – 201301.</p>
+            <p><strong>Phone:</strong>098234 64090</p>
+            <p><strong>Hours:</strong>10.00am - 9.00pm, Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-pinterest"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From app store or Google Play</p>
+            <div class="row">
+                <img src="./Images/app.png" width="140px">
+                <img src="./Images/app1.png" width="140px">
+            </div>
+            <p>Secured Pay Poducts</p>
+            <img src="./Images/visa.png" width="70px">
+            <img src="./Images/cards.png" width="70px">
+        </div>
+
+        <div class="copyright">
+            <p>© 2022 Ecommerce Website</p>
+        </div>
+
+
+    </footer>
+    <script src="script.js">
+
+
+    </script>
+</body>
+
+</html>
